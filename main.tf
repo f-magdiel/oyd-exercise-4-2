@@ -5,3 +5,7 @@ resource "aws_s3_bucket" "order_attachments" {
     ManagedBy   = "terraform"
   }
 }
+
+resource "time_sleep" "lock_demo" {
+  create_duration = "20s"
+}

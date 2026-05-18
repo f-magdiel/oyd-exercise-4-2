@@ -1,2 +1,2 @@
-app_name    = "orders-svc"
+app_name    = "oyd-orders-svc"
 environment = "dev"
